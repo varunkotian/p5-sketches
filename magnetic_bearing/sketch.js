@@ -28,6 +28,10 @@ function draw() {
   fill(0);
   text('0', 45, 355);
   text('360', 330, 355);
+  fill(100)
+  textSize(22);
+  text('Hit Space to switch between manual and automatic control of slider', 45,450)
+  fill(0)
   stroke(0);
   drawBear()  
   line(130,30,180,150)
