@@ -15,10 +15,6 @@ function setup() {
 function draw() {
   	background(50);
 
-  	// puck.checkCollision(left);
-  	// puck.checkCollision(right);
-
-
   	left.checkCollision(puck);
   	right.checkCollision(puck);
 
