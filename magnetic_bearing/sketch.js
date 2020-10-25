@@ -262,7 +262,7 @@ function drawBear() {
   angleColor(t + 3 * PI / 2)
   circle(0, -PD, MD);
 
-  rotate(PI / 4 )
+  rotate(-PI / 4 )
 
   angleColor(t + PI / 4)
   circle(PD, 0, MD);
@@ -276,6 +276,6 @@ function drawBear() {
   angleColor(t + 3 * PI / 2 + PI / 4)
   circle(0, -PD, MD);
   
-  rotate(-PI / 4)
+  rotate(PI / 4)
 }
 
