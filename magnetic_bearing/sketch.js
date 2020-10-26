@@ -72,10 +72,10 @@ function outColor(n){
   return (item * n + b._array[index])*255;
   })
   
-  if (n > 0.5){
+  if (n > 0.55){
     fill(mm1)
   }
-  else if (n < 0.5){
+  else if (n < 0.45){
     fill(mm2)
   }
   else{
